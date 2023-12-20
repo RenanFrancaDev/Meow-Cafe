@@ -154,3 +154,117 @@ header {
   position: relative;
   top: -130px;
 }
+
+.drinks {
+  background-image: url("../../img/Image-drinks.png");
+  background-position: center; /* Centraliza a imagem na seção */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-size: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-drinks {
+  text-align: center;
+  width: 545px;
+  height: 205px;
+  margin: 0 auto;
+}
+
+.header-drinks hr {
+  margin: -20px auto 20px auto;
+  width: 70px;
+  border: 1px solid #3c0e0e;
+}
+
+.header-drinks h2 {
+  color: #3c0e0e;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 157%;
+  margin-bottom: 16px;
+}
+
+.header-drinks p,
+.header-drinks a {
+  color: #3c0e0e;
+  font-size: 16px;
+  font-weight: 400;
+  font-weight: 157%;
+  margin-bottom: 16px;
+}
+
+.header-drinks a {
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.cards-drinks {
+  margin: 32px auto;
+  width: 1188px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-drink {
+  width: 323.65px;
+  height: 468.15px;
+  border-radius: 48px;
+  margin: 50px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-drink img {
+  height: 250px;
+}
+
+.btn-secundary {
+  text-align: center;
+  display: block;
+  margin-top: 16px;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  width: 281px;
+  height: 45px;
+  border-radius: 36px;
+  border: none;
+  color: #000000;
+  padding: 12px 32px;
+}
+
+.price {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.name_drink {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.desc_drink {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.one {
+  background: linear-gradient(45deg, #c27d7a, #f6e4c5);
+}
+.two {
+  background: linear-gradient(45deg, #541511, #fafafa);
+}
+.three {
+  background: linear-gradient(45deg, #541511, #0a0909);
+}
