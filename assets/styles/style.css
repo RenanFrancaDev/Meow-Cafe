@@ -1,0 +1,156 @@
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f2e8;
+}
+
+header {
+  width: 1188px;
+  height: 530px;
+  margin: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1188px;
+  height: 130px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 192px;
+  height: 169px;
+}
+
+.navbar-left {
+  display: flex;
+}
+
+.navbar-left ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left ul li {
+  padding-left: 36px;
+}
+
+.navbar-right ul {
+  display: flex;
+}
+
+.navbar-right ul li {
+  padding-left: 26px;
+  z-index: 2;
+}
+
+.navbar-right ul li img {
+  display: none;
+}
+
+.btn-primary {
+  background-color: #431b1b;
+  width: 152px;
+  height: 48px;
+  border-radius: 36px;
+  border: none;
+  color: #fff;
+  padding: 12px 32px;
+}
+
+.title-logo {
+  color: #1a1a1a;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.linha {
+  color: #3c0e0e;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  z-index: 100;
+}
+
+.linha:after {
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: #3c0e0e;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.linha:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.linha:hover {
+  color: #3c0e0e;
+  font-weight: 600;
+}
+
+.linha:active {
+  color: #3c0e0e;
+  font-weight: 600;
+  text-decoration-line: underline;
+}
+
+.top {
+  display: flex;
+  width: 1188px;
+}
+
+.header-text {
+  width: 338px;
+  margin-right: 180px;
+}
+
+.header-text p {
+  color: #3c0e0e;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-text h1 {
+  color: #3c0e0e;
+  font-size: 80px;
+  line-height: 104.5%;
+  font-weight: bold;
+  width: 252px;
+}
+
+.header-text .desc {
+  color: #3c0e0e;
+  font-size: 16px;
+  line-height: 157%;
+  font-weight: 400;
+  width: 352px;
+}
+
+.header-image img {
+  width: 614px;
+  height: 530px;
+  position: relative;
+  top: -130px;
+}
