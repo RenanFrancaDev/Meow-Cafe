@@ -1,0 +1,329 @@
+@media (max-width: 560px) {
+  body {
+    width: 350px;
+  }
+
+  .logo img {
+    width: 90px;
+    height: 90px;
+  }
+
+  header {
+    width: 350px;
+    height: auto;
+    margin: 0;
+    margin-bottom: 35px;
+    border: none;
+  }
+
+  .header-image {
+    display: none;
+  }
+
+  .title-logo {
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: bold;
+    width: 97px;
+  }
+
+  .title-logo u,
+  .linha {
+    display: none;
+  }
+
+  .navbar-right,
+  .navbar {
+    width: 100%;
+  }
+  .navbar-right ul {
+    justify-content: space-evenly;
+  }
+
+  .navbar-right ul li {
+    padding: 0;
+    justify-content: space-between;
+  }
+
+  .navbar-right ul li img {
+    display: block;
+  }
+
+  .navbar-left ul {
+    display: none;
+  }
+
+  .top {
+    width: 100%;
+    display: block;
+  }
+
+  .btn-primary {
+    font-size: 15px;
+  }
+
+  .header-text {
+    z-index: 999;
+    width: 350px;
+    margin: 0;
+  }
+  .header-text h1 {
+    font-size: 32px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .header-text p {
+    width: 237px;
+    margin-bottom: 10px;
+  }
+
+  .header-text .desc {
+    width: 100%;
+  }
+
+  .header-image {
+    display: none;
+  }
+
+  .header-image img {
+    content: url("../img/Image-header-mobile.png");
+    width: 340;
+    height: 555px;
+    position: relative;
+    top: -501px;
+    right: 26px;
+    z-index: -2;
+  }
+
+  .navbar {
+    width: 380px;
+  }
+
+  .top {
+    margin-left: 20px;
+  }
+
+  .header-drinks {
+    width: 331px;
+  }
+
+  .drinks {
+    width: 100%;
+    background-image: none;
+    margin: 0 auto;
+  }
+
+  .cards-drinks {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .one img,
+  .two img,
+  .three img {
+    width: 300px;
+  }
+
+  .card-drink {
+    margin: 15px;
+  }
+
+  .croissants {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-croissants {
+    width: 331px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-croissants hr {
+    margin: 30px auto 30px;
+  }
+
+  .subtitle {
+    display: none;
+  }
+
+  .desc-croissants {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .price-croissants {
+    display: none;
+  }
+  .text-croissants h2 {
+    font-size: 36px;
+  }
+
+  .your-house {
+    position: initial;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+
+  .image-croissants img {
+    width: 296px;
+    margin: 0 auto;
+  }
+
+  .navbar-right ul li img {
+    display: block;
+  }
+
+  .contato {
+    display: none;
+  }
+
+  .retangulo {
+    margin-top: 70px;
+    width: 326px;
+    height: 369px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .retangulo img {
+    display: none;
+  }
+
+  .text-house {
+    font-size: 36px;
+    text-align: center;
+    width: 281.55px;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .text-house p:first-child {
+    margin-top: 20px;
+    font-size: 36px;
+  }
+
+  .desc-house {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .sobre {
+    width: 100%;
+    height: 463px;
+    margin: 0 auto;
+    background-image: none;
+    background-size: contain;
+  }
+
+  .text-left {
+    width: 315px;
+    margin-bottom: 25px;
+  }
+
+  .container-sobre {
+    flex-direction: column;
+    align-items: center;
+    width: 338px;
+    height: 463px;
+    padding-bottom: 10px;
+  }
+
+  .cafe-pet {
+    font-size: 32px;
+    width: 100%;
+    line-height: 104.5%;
+  }
+
+  .desc-pet,
+  .desc-pet2 {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .retangulo-contato {
+    margin-top: 100px;
+    flex-direction: column;
+    width: 332px;
+    height: 458px;
+    border-radius: 48px 48px 0 0;
+    background: linear-gradient(#541511, #f3c7c4);
+  }
+
+  .right-contato {
+    width: 332px;
+    height: 457px;
+    margin: 0 auto;
+    border-radius: 0 0px 48px 48px;
+    top: -93px;
+    right: 40px;
+  }
+
+  .right-contato-text {
+    height: 457px;
+    display: block;
+    margin-bottom: 70px;
+  }
+
+  .right-contato-text h4 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .right-contato-text hr {
+    width: 249.83px;
+    margin-bottom: 30px;
+  }
+
+  .right-contato-text p {
+    margin-bottom: 30px;
+    width: 223.08px;
+  }
+  .left-contato h3 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .left-contato a {
+    margin-top: 35px;
+  }
+
+  .container-footer {
+    width: 80%;
+    margin-left: 0;
+    flex-direction: column;
+  }
+
+  .coffe {
+    width: 165px;
+    height: 137px;
+    top: -110px;
+    right: -140px;
+  }
+
+  footer {
+    margin-top: 350px;
+  }
+
+  .informacoes p {
+    margin-bottom: 30px;
+  }
+
+  .link-uteis {
+    margin-top: 40px;
+  }
+
+  .institucional {
+    display: none;
+  }
+}
