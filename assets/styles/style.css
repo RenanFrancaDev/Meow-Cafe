@@ -268,3 +268,46 @@ header {
 .three {
   background: linear-gradient(45deg, #541511, #0a0909);
 }
+
+.croissants {
+  margin: auto;
+  width: 1174px;
+  height: 449px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-croissants {
+  width: 493.17px;
+  height: 315.36px;
+}
+
+.text-croissants hr {
+  margin: -20px 0 20px;
+  width: 50px;
+  border: 1px solid #3c0e0e;
+}
+
+.text-croissants a {
+  color: #3c0e0e;
+  font-size: 16px;
+  font-weight: 600;
+  font-weight: 157%;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 80px;
+  color: #4d1d1d;
+}
+
+.subtitle {
+  color: #3c0e0e;
+  font-size: 40px;
+}
+
+.desc-croissants {
+  color: #3c0e0e;
+  font-size: 16px;
+  width: 307.57px;
+}
