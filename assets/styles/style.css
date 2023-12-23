@@ -7,8 +7,13 @@
   box-sizing: border-box;
 }
 
+/* body::-webkit-scrollbar {
+  display: none;
+} */
+
 body {
   background-color: #f7f2e8;
+  overflow-x: hidden;
 }
 
 header {
@@ -157,13 +162,13 @@ header {
 
 .drinks {
   background-image: url("../images/Image-drinks.png");
-  background-position: center; /* Centraliza a imagem na seção */
   background-repeat: no-repeat; /* Evita a repetição da imagem */
-  background-size: auto;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .header-drinks {
@@ -203,7 +208,7 @@ header {
 
 .cards-drinks {
   margin: 32px auto;
-  width: 1188px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -363,8 +368,9 @@ h2 {
   align-items: center;
   justify-content: center;
   background-image: url("../images/Background.png");
+  background-size: cover;
   margin: -100px auto;
-  width: 1700px;
+  width: 100vw;
   height: 750px;
   z-index: 9999;
 }
